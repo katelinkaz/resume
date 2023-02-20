@@ -1,13 +1,52 @@
 /* CSS for resume */
+p.hometown {
+	background-color: black;
+}	
+
 	h1{
+		text-decoration-line: underline;
 		font-family: sans-serif;
-		font-size: 40px;
+		font-size: 30px;
+}
+		
+	p::first-letter{
+		color:black;
+		font-variant:normal;
 	}
 
 h2{
+	text-decoration-line: underline;
+	font-family: sans-serif;
+	font-size: 20px;
+
+
+}
+ul {
+	list-style-type: square;
+	list-style-position: outside;
+	font-size: 20px;
+}
+
 	
+h3{ 
+	font-family: sans-serif;
+	font-size: 20px;
+	text-decoration-line:underline;
+}
 	p{
-		font-family: georgia;
+		font-family: sans-serif;
 		font-size: 20px;
-			}
+}
+  	
+  
+body{
+	font-size: 35px;
+	box-sizing: content-box;
+	width: 300px;
+	height: 100px;
+	padding:30px;
+	border: 10px black;
+	background-color: lightblue;
+	border-style: double;
+	border-color: whitesmoke;
 }
